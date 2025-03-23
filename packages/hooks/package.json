@@ -1,0 +1,21 @@
+{
+  "name": "@senmu/hooks",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "microbundle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@senmu/libs": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.12"
+  }
+}

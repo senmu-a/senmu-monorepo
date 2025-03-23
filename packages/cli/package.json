@@ -1,0 +1,26 @@
+{
+  "name": "@senmu/senmu-type-cli",
+  "version": "1.0.0",
+  "description": "公司内部的Quicktype CLI工具，用于生成类型定义",
+  "bin": {
+    "senmu-gen": "./bin/cli.js"
+  },
+  "keywords": [
+    "quicktype",
+    "cli",
+    "typescript",
+    "types"
+  ],
+  "author": "senmu98@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@darkobits/lolcatjs": "^3.1.3",
+    "chalk": "^4.1.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^8.2.6",
+    "ora": "^4.0.4",
+    "quicktype-core": "^23.0.78",
+    "shelljs": "^0.8.5"
+  }
+}
