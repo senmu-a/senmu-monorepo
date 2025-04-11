@@ -12,7 +12,7 @@ const inquirer = require('inquirer');
 const chalk = require('chalk');
 const shell = require('shelljs');
 const transformed = Printer.fromString(
-  ` \n   ✨ 项目脚手架 ${version} ✨ \n ${versionStr}`
+  ` \n   senmu✨ 项目脚手架 ${version} ✨ \n ${versionStr}`
 );
 const {
   quicktype,
